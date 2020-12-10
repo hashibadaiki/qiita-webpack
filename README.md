@@ -12,6 +12,8 @@
 
 各ディレクトリのルートで`npm i`でnode-moduleをinstallしてください。
 
+共通して src配下は作業用ディレクトリ、distが自動生成先のディレクトリです。
+
 ### live-server
 
 `npm run start`でserverが立ち上がりhot reloadされます。
@@ -19,7 +21,9 @@
 ### easy-sass
 
 `npm run start`でserverが立ち上がりhot reloadされます。
+
 `npm run dev`で開発用のファイルが出力されます。
+
 `npm run build`で本番用の圧縮されたファイルが出力されます。
 
 ### compress-pictures
